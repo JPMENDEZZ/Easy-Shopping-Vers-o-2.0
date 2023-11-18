@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?família=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.div-left {
+    width: 60%;
+    height: 100%;
+}
+
+.div-right {
+    width: 40%;
+    height: 100%;
+    background: #5d5d7d27;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0 0 80px;
+}
+
+h1 {
+    width: 420px;
+    font-size: 50px;
+    line-height: 60px;
+    color: #5D5D7D;
+}
+
+p {
+    width: 520px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #5d5d7d8e;
+    margin: 35px 0 25px 0;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background: #9498eaa9;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5D5D7D;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: .6;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+a:active {
+    opacity: .3;
+}
+
+img {
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    right: 24%;
+}
+
+@media screen and (max-width: 880px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 22px 0 0 0;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    img {
+        position: static;
+        width: 210px;
+        margin: 30px 0 0 80px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .div-left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .div-right {
+        width: 100%;
+        height: 50%;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+        width: 170px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    body {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 10px 0 0 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    img {
+        position: static;
+        width: 77%;
+        padding: 12px 0 0 75px;
+        margin: auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    .div-left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .div-right {
+        width: 100%;
+        height: 50%;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 25px;
+        width: 65%;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 18px;
+        width: 97%;
+        margin: 10px 0px;
+    }
+}
