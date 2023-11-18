@@ -99,6 +99,62 @@ img {
     right: 24%;
 }
 
+footer {
+    position: relative;
+    top: 530px;
+    text-align: center;
+    height: 155px;
+    background: #5D5D7D;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.linkedin {
+    width: 35px;
+    left: 190px;
+    top: 70px;
+    border-radius: 30%;
+}
+
+.linkedin:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.jp-portfolio {
+    width: 35px;
+    top: 73px;
+    right: 235px;
+    border-radius: 30%;
+}
+
+.jp-portfolio:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.github {
+    width: 35px;
+    right: 175px;
+    top: 70px;
+}
+
+.github:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*TRABALHANDO A RESPONSIVIDADE*/
+
 @media screen and (max-width: 880px) {
 
     body {
@@ -142,6 +198,40 @@ img {
         font-size: 14px;
         line-height: 24px;
         width: 300px;
+    }
+
+    footer {
+        top: 0px;
+        height: 60px;
+    }
+
+    h2 {
+        padding-top: 2px;
+        font-size: 14px;
+    }
+
+    .linkedin {
+        width: 25px;
+        position: relative;
+        left: 35px;
+        top: 6px;
+        margin: auto;
+    }
+
+    .jp-portfolio {
+        width: 28px;
+        top: 5px;
+        right: -15px;
+        position: relative;
+        margin: auto;
+    }
+
+    .github {
+        margin: auto;
+        width: 28px;
+        right: 3px;
+        top: 6px;
+        position: relative;
     }
 }
 
@@ -188,5 +278,9 @@ img {
         line-height: 18px;
         width: 97%;
         margin: 10px 0px;
+    }
+
+    footer {
+        display: none;
     }
 }
