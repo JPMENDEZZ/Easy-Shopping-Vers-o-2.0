@@ -1,6 +1,6 @@
 # Easy-Shopping-Vers-o-2.0
 <hr>
-<h2>"Esta é a segunda versão deste projeto, com algumas pequenas alterações, como a adição de um footer. Este projeto também é responsivo e as tecnologias utilizadas para o desenvolvimento são:"</h2>
+<h2>Esta é a segunda versão deste projeto, com algumas pequenas alterações, como a adição de um footer. Este projeto também é responsivo e as tecnologias utilizadas para o desenvolvimento são:</h2>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML-Logo" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS-Logo" />
 <br><br>
